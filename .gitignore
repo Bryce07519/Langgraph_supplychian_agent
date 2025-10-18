@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda/Virtual environments
+# 忽略你的环境文件夹，根据你的实际名称修改
+env/
+venv/
+.venv/
+myenv/
+
+# IDE and editor configuration files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Sensitive information
+# 尤其重要！忽略包含密码、API密钥等的文件
+.env
+*.env
+config.ini
+secrets.yml
+
+# Log files
+*.log
